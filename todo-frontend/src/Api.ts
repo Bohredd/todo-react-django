@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Todo } from './Types';
 
-const API_URL = 'http://localhost:8000/api/todos/';
+const API_URL = 'http://todo-react-django-production.up.railway.app/api/todos/';
 
 export const fetchTodos = async (): Promise<Todo[]> => {
     const response = await axios.get<Todo[]>(API_URL);
