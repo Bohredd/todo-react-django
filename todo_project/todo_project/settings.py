@@ -132,11 +132,11 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    '*'
+    'todo-react-django-production.up.railway.app:8000'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    '*'
+    'todo-react-django-production.up.railway.app:8000'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
