@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-@k%k&%r6(!vp=-j_u1(ug17ig(f6se7ndm$739y56zzb8(s=@u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['todo-react-django-production.up.railway.app', 'localhost', '127.0.0.1']
 
 # Application definition
 
